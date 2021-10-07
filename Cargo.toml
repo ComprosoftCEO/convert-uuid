@@ -1,0 +1,11 @@
+[package]
+name = "convert-uuid"
+version = "0.1.0"
+edition = "2018"
+description = "Convert between normal and base-64 UUID representations"
+authors = ["Bryan McClain <bamcclain10@gmail.com"]
+
+[dependencies]
+structopt = "0.3.23"
+uuid = "0.6.3"
+uuid-b64 = { version = "0.1.1", features = ["serde"] }
